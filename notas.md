@@ -73,6 +73,17 @@ La diferencia principal entre que si colocamos el estilo o no, es que no será a
     background-color: red;
 }
 ```
+## Forma corta de usar transition
+```bash
+.modelo {
+    transition: transform 300ms, background-size 300ms;
+}
+.modelo:hover {
+    transform: scale(1.1) rotate(8deg);
+    background-size: 30rem;
+    background-color: red;
+}
+```
 ## Nota sobre background-position:
 Los valores deben ser colocados de x a y, pero si colocas primero un valor como top y luego left; automaticamente se colocaran en sus respectivas posiciones.
 ```bash
